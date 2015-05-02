@@ -156,7 +156,6 @@ int main(void)
 			if (PerfStatStrings[i] != NULL)
 				printf("%s: Size: %u, Count = %u, Accumulated: %u\n", PerfStatStrings[i],
 						Statv2->Unit.Slot[i],
-						Statv2->Size.Slot[i],
 						Statv2->Current.Slot[i],
 						Statv2->Total.Slot[i]);
 		}
